@@ -16,10 +16,12 @@
 
 package com.trevjonez.inject.activity;
 
-import dagger.MapKey;
+import android.app.Activity;
 
 import java.lang.annotation.ElementType;
 import java.lang.annotation.Target;
+
+import dagger.MapKey;
 
 /**
  * @author TrevJonez
@@ -27,4 +29,5 @@ import java.lang.annotation.Target;
 @MapKey
 @Target({ElementType.METHOD})
 public @interface ActivityKey {
+    Class<? extends Activity> value();
 }
