@@ -16,7 +16,8 @@
 
 package com.trevjonez.inject.fragment;
 
-import android.app.Fragment;
+import android.support.v4.app.Fragment;
+
 import com.trevjonez.inject.ComponentBuilder;
 import com.trevjonez.inject.PlainComponent;
 
