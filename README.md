@@ -19,7 +19,7 @@ Step 2. Add the dependency
 ```groovy
 dependencies {
     ...
-    compile 'com.github.trevjonez:Inject-Android:0.1.1'
+    compile 'com.github.trevjonez:Inject-Android:0.2.0'
 }
 ```
 
