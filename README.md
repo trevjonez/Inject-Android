@@ -1,8 +1,10 @@
 # Inject-Android
 
-A collection of interfaces to use as the basis of your dagger2 components and assign common interfaces to the apis used how you distribute them in your android application.
+A collection of interfaces to use as the basis of your dagger2 components and assign common interfaces to the apis used and provide some consistency to how you distribute them in your project.
 
 The main goal is to provide base types that can be multibound by dagger2 into maps thus breaking the cyclic dependency between your application class and activities.(and other classes too)
+
+[This bit of Gregory Kick's talk is what I am trying to replicate with these interfaces](https://youtu.be/iwjXqRlEevg?t=28m13s)
  
 ### Installation
 
