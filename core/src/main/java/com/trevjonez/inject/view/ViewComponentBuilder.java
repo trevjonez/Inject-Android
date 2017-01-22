@@ -21,5 +21,5 @@ import android.view.View;
 import com.trevjonez.inject.ComponentBuilder;
 import com.trevjonez.inject.PlainComponent;
 
-public interface ViewComponentBuilder<F extends View, C extends PlainComponent<F>> extends ComponentBuilder<F, C> {
+public interface ViewComponentBuilder<V extends View, C extends PlainComponent<V>> extends ComponentBuilder<V, C> {
 }

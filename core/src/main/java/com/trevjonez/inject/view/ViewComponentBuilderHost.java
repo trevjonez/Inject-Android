@@ -21,5 +21,5 @@ import android.view.View;
 import com.trevjonez.inject.PlainComponent;
 
 public interface ViewComponentBuilderHost {
-    <F extends View, B extends ViewComponentBuilder<F, ? extends PlainComponent<F>>> B getViewComponentBuilder(Class<F> viewKey, Class<B> builderType);
+    <V extends View, B extends ViewComponentBuilder<V, ? extends PlainComponent<V>>> B getViewComponentBuilder(Class<V> viewKey, Class<B> builderType);
 }
